@@ -17,7 +17,7 @@ class Password:
         Then creates a password at random based on the sequence of data types.
         '''
         #opens words.txt and turns it into a list
-        with open('passwordGen/words.txt') as f:
+        with open('words.txt') as f:
             words = f.read().splitlines()
         dict_length = len(words)
         
